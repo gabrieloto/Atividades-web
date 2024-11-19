@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo da seção principal */
+main {
+    padding: 50px;
+    text-align: center;
+
+    background-color: #9b8787;
+}
+
+/* Estilo dos parágrafos */
+main p {
+    display: inline; /* Exibir os parágrafos na mesma linha */
+    background-color: #cac9c9;
+    color: #333333;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333333;
+    color: rgb(248, 246, 246);
+    text-align: center;
+    padding: 2px;
+
+}

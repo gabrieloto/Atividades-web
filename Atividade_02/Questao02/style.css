@@ -1,0 +1,55 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo da navegação */
+nav {
+    text-align: center;
+    padding: 20px;
+    background-color: #043605;
+}
+
+nav a {
+    display: inline-block;
+    width: 20vw; /* 20% da largura da tela */
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #d9e0dc;
+}
+
+/* Estilo da seção */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo das caixas de texto */
+.caixa-texto {
+    display: inline-block;
+    width: 45%; /* 45% da largura da tela */
+    margin: 5%;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+}
+
+.caixa-texto p {
+    margin: 0;
+}
